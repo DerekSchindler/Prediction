@@ -12,6 +12,7 @@ public class Prediction {
         int J;
         int K;
         int h;
+        int a, b, c, d, e, f;
 
         //rhyme
         System.out.println("There's an old nursery rhyme tht goes like this...\n"+" ");
@@ -44,11 +45,26 @@ public class Prediction {
 
             K= year%100;
             J=year/100;
-            
+
+            //Equation
+            a = m+1;
+            b = 13*a;
+            c = b/5;
+            d = K/4;
+            e = J/4;
+            f = J*5;
+
+            h = q + c + K + d + e +f;
+            h = h%7;
+
 
 
 
         }
+
+    }
+    public static void month(){
+
 
     }
 
