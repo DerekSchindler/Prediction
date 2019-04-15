@@ -10,7 +10,6 @@ public class Prediction {
         int q;
         int year;
         int h;
-        String next;
 
         //rhyme
         System.out.println("There's an old nursery rhyme tht goes like this...\n"+" ");
